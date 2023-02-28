@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    background-color: #111;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px 20px;
+}
+
+span{
+    color: gold;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    color: white;
+    transition: ease .10s;
+}
+
+.fa{
+    cursor: pointer;
+    transition: ease .5s;
+    color: aliceblue;
+}
+
+.face:hover{
+    color: rgb(50, 57, 151);
+}
+
+.insta:hover{
+    color: purple;
+}
+
+.link:hover{
+    color: rgb(143, 196, 214);
+}
